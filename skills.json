@@ -1,0 +1,22 @@
+{
+  "name": "agent-skills",
+  "description": "Main index repository for standalone agent skill repositories.",
+  "author": {
+    "wechat": "190569625"
+  },
+  "rules": {
+    "oneSkillPerRepository": true,
+    "skillReadme": "Each skill repository must include a bilingual English/Chinese README.md with author contact vx:190569625."
+  },
+  "skills": [
+    {
+      "name": "wechat-local-reader",
+      "repository": "https://github.com/onlyloveher/wechat-local-reader-skill",
+      "description": "Read WeChat Official Account articles locally via Chrome/Edge CDP and save them as Markdown.",
+      "runtimes": ["codex", "openclaw", "hermes"],
+      "author": {
+        "wechat": "190569625"
+      }
+    }
+  ]
+}
