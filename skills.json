@@ -6,7 +6,8 @@
   },
   "rules": {
     "oneSkillPerRepository": true,
-    "skillReadme": "Each skill repository must include a bilingual English/Chinese README.md with author contact vx:190569625."
+    "readmeLanguageFiles": ["README.md", "README.zh-CN.md"],
+    "skillReadme": "Each skill repository must provide separate English and Chinese README files linked at the top, and each README must include author contact vx:190569625."
   },
   "skills": [
     {
