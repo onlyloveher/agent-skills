@@ -13,8 +13,10 @@
     {
       "name": "wechat-local-reader",
       "repository": "https://github.com/onlyloveher/wechat-local-reader-skill",
-      "description": "Read WeChat Official Account articles locally via Chrome/Edge CDP and save them as Markdown.",
+      "description": "Turn a WeChat Official Account article link into a local Markdown document that agents can summarize, analyze, archive, or use for downstream tasks.",
+      "scenario": "Send a mp.weixin.qq.com link to an agent such as Codex, Hermes, or OpenClaw, and let the agent read the article locally and generate Markdown.",
       "runtimes": ["codex", "openclaw", "hermes"],
+      "keywords": ["wechat", "weixin", "mp.weixin.qq.com", "official account", "markdown", "local-first", "dingtalk", "agent skill"],
       "author": {
         "wechat": "190569625"
       }
