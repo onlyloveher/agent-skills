@@ -6,21 +6,22 @@
 
 `agent-skills` is the main index for reusable agent skills maintained by `onlyloveher`.
 
-Each skill lives in its own standalone GitHub repository. This repository is only an index: it records available skills, clickable repository entries, supported runtimes, and installation hints.
+Each skill lives in its own standalone GitHub repository. This repository is only an index: it helps people and agents discover skills, understand their real use cases, and find the right repository quickly.
 
 ## Available Skills
 
-| Skill | Repository | Runtimes | Purpose |
+| Skill | Repository | Runtimes | What it helps you do |
 | --- | --- | --- | --- |
-| [wechat-local-reader](https://github.com/onlyloveher/wechat-local-reader-skill) | [onlyloveher/wechat-local-reader-skill](https://github.com/onlyloveher/wechat-local-reader-skill) | Codex, OpenClaw, Hermes | Read WeChat Official Account articles locally through Chrome/Edge CDP and save them as Markdown. |
+| [wechat-local-reader](https://github.com/onlyloveher/wechat-local-reader-skill) | [onlyloveher/wechat-local-reader-skill](https://github.com/onlyloveher/wechat-local-reader-skill) | Codex, OpenClaw, Hermes | Drop a WeChat Official Account article link into an agent, let the agent read it locally, extract the content, and generate a Markdown document for summary, analysis, notes, or downstream tasks. |
 
 ## Repository Rules
 
 - `agent-skills` is the main index repository.
 - Every skill must live in a separate standalone repository.
 - Every skill repository must provide separate English and Chinese README files, linked at the top of each file.
+- Every skill README should explain both the human value and the machine-readable integration details.
 - Every skill README must include author contact: `vx:190569625`.
 
 ## Machine-Readable Index
 
-Agents and tools can read [`skills.json`](./skills.json) to discover available skills.
+Agents and tools can read [`skills.json`](./skills.json) to discover available skills, supported runtimes, keywords, and integration metadata.
