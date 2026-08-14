@@ -14,6 +14,7 @@
 | --- | --- | --- | --- |
 | [wechat-local-reader](https://github.com/onlyloveher/wechat-local-reader-skill) | [onlyloveher/wechat-local-reader-skill](https://github.com/onlyloveher/wechat-local-reader-skill) | Codex, OpenClaw, Hermes | 把微信公众号文章链接丢给智能体，让智能体在本机读取文章、提取内容并生成 Markdown 文档，后续可以继续摘要、分析、做笔记或拆解任务。 |
 | [formal-chinese-docx-proposal-qa](https://github.com/onlyloveher/formal-chinese-docx-proposal-qa) | [onlyloveher/formal-chinese-docx-proposal-qa](https://github.com/onlyloveher/formal-chinese-docx-proposal-qa) | Codex, OpenClaw, Hermes | 编写、修改和复核正式中文 DOCX 方案文档，覆盖依据边界、章节结构、可点击目录、题注、格式、图件可读性和交付前检查。 |
+| [flowchart-delivery-qa](https://github.com/onlyloveher/flowchart-delivery-qa) | [onlyloveher/flowchart-delivery-qa](https://github.com/onlyloveher/flowchart-delivery-qa) | Codex, OpenClaw, Hermes | 创建或复核流程图、泳道图、架构图、SVG 预览和 PDF 图件交付物，检查业务逻辑、泳道维度、箭头路由、客户版措辞和多格式一致性。 |
 
 ## 仓库规则
 

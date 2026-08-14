@@ -31,6 +31,17 @@
       "author": {
         "wechat": "190569625"
       }
+    },
+    {
+      "name": "flowchart-delivery-qa",
+      "repository": "https://github.com/onlyloveher/flowchart-delivery-qa",
+      "description": "Create, review, and verify business flowcharts, swimlane diagrams, architecture diagrams, SVG diagrams, HTML previews, and PDF diagram deliverables with delivery-grade logic, routing, wording, and format checks.",
+      "scenario": "Ask an agent to create or review a client-facing flowchart, architecture diagram, SVG, HTML preview, or PDF deliverable, then verify logic, lanes, arrow routing, wording cleanup, and source-to-PDF fidelity.",
+      "runtimes": ["codex", "openclaw", "hermes"],
+      "keywords": ["flowchart", "swimlane", "architecture diagram", "svg", "pdf", "diagram qa", "arrow routing", "visual validation", "agent skill"],
+      "author": {
+        "wechat": "190569625"
+      }
     }
   ]
 }
