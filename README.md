@@ -13,6 +13,7 @@ Each skill lives in its own standalone GitHub repository. This repository is onl
 | Skill | Repository | Runtimes | What it helps you do |
 | --- | --- | --- | --- |
 | [wechat-local-reader](https://github.com/onlyloveher/wechat-local-reader-skill) | [onlyloveher/wechat-local-reader-skill](https://github.com/onlyloveher/wechat-local-reader-skill) | Codex, OpenClaw, Hermes | Drop a WeChat Official Account article link into an agent, let the agent read it locally, extract the content, and generate a Markdown document for summary, analysis, notes, or downstream tasks. |
+| [formal-chinese-docx-proposal-qa](https://github.com/onlyloveher/formal-chinese-docx-proposal-qa) | [onlyloveher/formal-chinese-docx-proposal-qa](https://github.com/onlyloveher/formal-chinese-docx-proposal-qa) | Codex, OpenClaw, Hermes | Draft, revise, and QA formal Chinese DOCX proposal documents, including evidence boundaries, structure, clickable TOC behavior, captions, formatting, diagram readability, and delivery checks. |
 
 ## Repository Rules
 

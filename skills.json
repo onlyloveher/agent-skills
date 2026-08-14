@@ -20,6 +20,17 @@
       "author": {
         "wechat": "190569625"
       }
+    },
+    {
+      "name": "formal-chinese-docx-proposal-qa",
+      "repository": "https://github.com/onlyloveher/formal-chinese-docx-proposal-qa",
+      "description": "Create, revise, and QA formal Chinese Word/DOCX proposal documents, including structure, evidence boundaries, TOC links, captions, formatting, diagram readability, and delivery checks.",
+      "scenario": "Ask an agent to produce or review a formal Chinese information-system proposal, AI application plan, technical solution, implementation plan, project application, bid proposal, or executive review document.",
+      "runtimes": ["codex", "openclaw", "hermes"],
+      "keywords": ["chinese document", "docx", "proposal", "technical solution", "formal writing", "toc", "wps", "delivery qa", "agent skill"],
+      "author": {
+        "wechat": "190569625"
+      }
     }
   ]
 }
